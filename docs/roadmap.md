@@ -28,7 +28,7 @@ flowchart LR
 
 ### Fase 0 — Preparação
 
-- [ ] [#1](https://github.com/ArthurSouzaDev/minutinha/issues/1) `chore: configurar projeto Python 3.11+ com uv, ruff e pytest`
+- [x] [#1](https://github.com/ArthurSouzaDev/minutinha/issues/1) `chore: configurar projeto Python 3.11+ com uv, ruff e pytest`
 - [ ] [#2](https://github.com/ArthurSouzaDev/minutinha/issues/2) `ci: rodar lint (ruff) e testes (pytest) a cada push e pull request`
 - [ ] [#3](https://github.com/ArthurSouzaDev/minutinha/issues/3) `docs: documentar instalação do ffmpeg e do Ollama para desenvolvimento`
 - [ ] [#4](https://github.com/ArthurSouzaDev/minutinha/issues/4) `docs: registrar estudos de PySide6, QThread e sqlite3`

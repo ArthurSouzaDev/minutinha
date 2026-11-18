@@ -17,6 +17,8 @@ docs/
 │   ├── fase-4-lancamento.md
 │   ├── fase-5-gravacao-e-busca.md
 │   └── fase-6-recursos-avancados.md
+├── desenvolvimento/
+│   └── ambiente.md              ← preparar a máquina, comandos uv/ruff/pytest
 ├── processo/
 │   ├── fluxo-de-trabalho.md     ← branches main/homologacao/develop, issues, PRs, releases
 │   └── conventional-commits.md  ← padrão de commits, títulos de issue e PR
@@ -40,6 +42,7 @@ Pastas criadas ao longo do roadmap (cada uma pela issue indicada no seu document
 | Entender o produto | [Plano mestre §1–3](plano-minutinha.md#1-visão-do-produto) |
 | Entender a arquitetura | [Plano mestre §4](plano-minutinha.md#4-arquitetura) e [ADR 0006](adr/0006-padrao-de-provedores.md) |
 | Saber o que fazer agora | [Roadmap](roadmap.md) → fase atual |
+| Preparar a máquina | [Ambiente de desenvolvimento](desenvolvimento/ambiente.md) |
 | Contribuir | [Fluxo de trabalho](processo/fluxo-de-trabalho.md) e [Conventional Commits](processo/conventional-commits.md) |
 | Saber por que algo foi escolhido | [ADRs](adr/README.md) |
 
