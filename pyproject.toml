@@ -1,0 +1,67 @@
+[project]
+name = "minutinha"
+version = "0.0.1"
+description = "Transcritor desktop open source: transcreve reuniões e gera resumos com IA, 100% local."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{ name = "Arthur Almeida" }]
+keywords = ["transcricao", "whisper", "reuniao", "resumo", "desktop", "offline"]
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Environment :: X11 Applications :: Qt",
+    "Natural Language :: Portuguese (Brazilian)",
+    "Programming Language :: Python :: 3",
+    "Topic :: Multimedia :: Sound/Audio :: Speech",
+]
+dependencies = []
+
+[project.scripts]
+minutinha = "minutinha.__main__:main"
+
+[project.urls]
+Repository = "https://github.com/ArthurSouzaDev/minutinha"
+Documentation = "https://github.com/ArthurSouzaDev/minutinha/tree/main/docs"
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+    "ruff>=0.6",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/minutinha"]
+
+# ---------- ruff ----------
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+src = ["src", "tests"]
+# Documentação não é formatada pelo ruff (exemplos do plano ficam como escritos)
+extend-exclude = ["*.md"]
+
+[tool.ruff.lint]
+select = [
+    "E", "W",  # pycodestyle
+    "F",       # pyflakes
+    "I",       # isort
+    "B",       # bugbear
+    "UP",      # pyupgrade
+    "SIM",     # simplify
+    "N",       # nomes PEP 8
+]
+
+[tool.ruff.format]
+quote-style = "double"
+
+# ---------- pytest ----------
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra --strict-markers"
+markers = [
+    "lento: testes que carregam modelos reais (Whisper/LLM); rode com -m lento",
+]

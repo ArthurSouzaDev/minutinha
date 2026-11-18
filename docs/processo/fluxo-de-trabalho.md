@@ -58,7 +58,8 @@ Bug crítico em produção: crie `hotfix/<issue>-<descricao>` a partir de `main`
 5. **Abra o PR para `develop`** usando o template, com `Closes #<número>` na descrição.
 6. **CI verde + revisão** (mesmo sozinho: releia o diff no GitHub antes de aprovar).
 7. **Merge com squash**: o título do PR vira o commit em `develop`, então ele **também** segue Conventional Commits.
-8. Apague a branch.
+8. **Feche a issue manualmente** depois do merge: o GitHub só fecha issues pelo `Closes #N` quando o PR entra na branch padrão (`main`), e nosso trabalho entra em `develop`. Marque também o item no [roadmap](../roadmap.md) no próprio PR.
+9. Apague a branch.
 
 ## 3. Release
 
