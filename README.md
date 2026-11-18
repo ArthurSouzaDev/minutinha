@@ -1,5 +1,7 @@
 # Minutinha
 
+[![CI](https://github.com/ArthurSouzaDev/minutinha/actions/workflows/ci.yml/badge.svg?branch=develop)](https://github.com/ArthurSouzaDev/minutinha/actions/workflows/ci.yml)
+
 > _Sua reunião virou ata num minutinho._
 
 Aplicativo desktop **gratuito e open source** que transcreve reuniões e áudios e gera resumos com IA, **rodando 100% no seu computador**. Nada é enviado para servidores de terceiros.
