@@ -46,7 +46,7 @@ uv run minutinha --version
 | `uv add <pacote>` | adiciona dependência do app (atualiza `pyproject.toml` e `uv.lock`) |
 | `uv add --dev <pacote>` | adiciona dependência só de desenvolvimento |
 
-Antes de abrir um PR rode: `uv run ruff check . && uv run ruff format --check . && uv run pytest`.
+Antes de abrir um PR rode: `uv run ruff check . && uv run ruff format --check . && uv run pytest`. O [CI](ci.md) roda os mesmos comandos em cada PR.
 
 ## 4. Estrutura atual
 

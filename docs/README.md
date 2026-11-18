@@ -18,7 +18,8 @@ docs/
 │   ├── fase-5-gravacao-e-busca.md
 │   └── fase-6-recursos-avancados.md
 ├── desenvolvimento/
-│   └── ambiente.md              ← preparar a máquina, comandos uv/ruff/pytest
+│   ├── ambiente.md              ← preparar a máquina, comandos uv/ruff/pytest
+│   └── ci.md                    ← GitHub Actions: quando roda, jobs, custos
 ├── processo/
 │   ├── fluxo-de-trabalho.md     ← branches main/homologacao/develop, issues, PRs, releases
 │   └── conventional-commits.md  ← padrão de commits, títulos de issue e PR
