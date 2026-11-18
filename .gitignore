@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Ferramentas
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Build / empacotamento
+build/
+dist/
+*.spec.bak
+
+# Dados que NUNCA devem ser versionados (ver plano §12)
+*.db
+*.db-journal
+modelos/
+models/
+*.bin
+*.gguf
+*.safetensors
+audios/
+gravacoes/
+# áudios de teste ficam apenas em tests/fixtures/
+*.mp3
+*.m4a
+*.wav
+*.ogg
+*.opus
+*.webm
+*.mp4
+!tests/fixtures/**
+
+# Segredos e configuração local
+.env
+*.local.toml
+.claude/settings.local.json
+
+# SO / editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
