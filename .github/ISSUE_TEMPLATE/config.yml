@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentação
+    url: https://github.com/ArthurSouzaDev/minutinha/tree/main/docs
+    about: Plano, roadmap, fluxo de trabalho e decisões de arquitetura.
