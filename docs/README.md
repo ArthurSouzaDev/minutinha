@@ -9,6 +9,7 @@ docs/
 ├── README.md                    ← você está aqui
 ├── plano-minutinha.md           ← plano mestre: visão, arquitetura, stack, dados, telas, riscos
 ├── roadmap.md                   ← fases → milestones → issues
+├── configuracao.md              ← pastas de dados e referência do config.toml
 ├── fases/                       ← uma página por fase, espelhando as issues
 │   ├── fase-0-preparacao.md
 │   ├── fase-1-nucleo.md

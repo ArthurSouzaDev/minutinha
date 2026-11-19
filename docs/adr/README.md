@@ -25,3 +25,4 @@ Um ADR registra **uma** decisão técnica importante: o contexto, o que foi deci
 | [0005](0005-licenca-mit.md) | Licença MIT | Aceito |
 | [0006](0006-padrao-de-provedores.md) | Padrão de provedores e camadas | Aceito |
 | [0007](0007-fluxo-de-branches.md) | Fluxo de branches main / homologacao / develop | Aceito |
+| [0008](0008-configuracao-e-pastas-de-dados.md) | Configuração em TOML com dataclasses e pastas de dados separadas | Aceito |

@@ -14,7 +14,9 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "Topic :: Multimedia :: Sound/Audio :: Speech",
 ]
-dependencies = []
+dependencies = [
+    "platformdirs>=4.3",
+]
 
 [project.scripts]
 minutinha = "minutinha.__main__:main"
@@ -53,6 +55,9 @@ select = [
     "UP",      # pyupgrade
     "SIM",     # simplify
     "N",       # nomes PEP 8
+]
+ignore = [
+    "N818",    # exceções em português (ErroConfiguracao, ProvedorIndisponivel), sem sufixo "Error"
 ]
 
 [tool.ruff.format]
