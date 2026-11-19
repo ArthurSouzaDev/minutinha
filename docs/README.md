@@ -23,6 +23,7 @@ docs/
 ├── estudos/
 │   ├── pyside6.md               ← janela, sinais/slots, QThread (com armadilha do cancelar)
 │   ├── sqlite.md                ← sqlite3, transações, migrações, FTS5, threads
+│   ├── poc-whisper.md           ← prova de conceito: medições e achados do faster-whisper
 │   └── exemplos/                ← exemplos executáveis citados nos estudos
 ├── processo/
 │   ├── fluxo-de-trabalho.md     ← branches main/homologacao/develop, issues, PRs, releases
