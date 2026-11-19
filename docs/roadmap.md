@@ -32,7 +32,7 @@ flowchart LR
 - [x] [#2](https://github.com/ArthurSouzaDev/minutinha/issues/2) `ci: rodar lint (ruff) e testes (pytest) a cada push e pull request`
 - [x] [#3](https://github.com/ArthurSouzaDev/minutinha/issues/3) `docs: documentar instalação do ffmpeg e do Ollama para desenvolvimento`
 - [x] [#4](https://github.com/ArthurSouzaDev/minutinha/issues/4) `docs: registrar estudos de PySide6, QThread e sqlite3`
-- [ ] [#5](https://github.com/ArthurSouzaDev/minutinha/issues/5) `feat(poc): transcrever um mp3 no terminal com faster-whisper`
+- [x] [#5](https://github.com/ArthurSouzaDev/minutinha/issues/5) `feat(poc): transcrever um mp3 no terminal com faster-whisper`
 
 ### Fase 1 — Núcleo sem interface
 
