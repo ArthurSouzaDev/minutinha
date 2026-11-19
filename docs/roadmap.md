@@ -36,7 +36,7 @@ flowchart LR
 
 ### Fase 1 — Núcleo sem interface
 
-- [ ] [#6](https://github.com/ArthurSouzaDev/minutinha/issues/6) `feat(config): carregar configurações do usuário e pastas de dados com platformdirs`
+- [x] [#6](https://github.com/ArthurSouzaDev/minutinha/issues/6) `feat(config): carregar configurações do usuário e pastas de dados com platformdirs`
 - [ ] [#7](https://github.com/ArthurSouzaDev/minutinha/issues/7) `feat(core): adicionar logging em arquivo na pasta de dados`
 - [ ] [#8](https://github.com/ArthurSouzaDev/minutinha/issues/8) `feat(core): converter áudio para WAV mono 16 kHz e obter duração com ffmpeg`
 - [ ] [#9](https://github.com/ArthurSouzaDev/minutinha/issues/9) `feat(providers): definir interfaces de provedores e a dataclass Segmento`
