@@ -20,6 +20,10 @@ docs/
 ├── desenvolvimento/
 │   ├── ambiente.md              ← preparar a máquina, comandos uv/ruff/pytest
 │   └── ci.md                    ← GitHub Actions: quando roda, jobs, custos
+├── estudos/
+│   ├── pyside6.md               ← janela, sinais/slots, QThread (com armadilha do cancelar)
+│   ├── sqlite.md                ← sqlite3, transações, migrações, FTS5, threads
+│   └── exemplos/                ← exemplos executáveis citados nos estudos
 ├── processo/
 │   ├── fluxo-de-trabalho.md     ← branches main/homologacao/develop, issues, PRs, releases
 │   └── conventional-commits.md  ← padrão de commits, títulos de issue e PR
